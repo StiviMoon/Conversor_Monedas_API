@@ -92,6 +92,8 @@ public class Menu {
                 System.out.println("**************************************");
 
                 System.out.println("¿Desea realizar otra conversion?\n1.Si\n2.No");
+                System.out.print("Opción: ");
+
                 int opcionContinuar = scanner.nextInt();
                 if (opcionContinuar == 1){
                     continuar = true;
